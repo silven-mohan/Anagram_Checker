@@ -42,4 +42,6 @@ int anagram_checker()
 	{
 		printf("%s and %s are not anagrams.", word11, word22);
 	}
+
+	return 0;
 }
