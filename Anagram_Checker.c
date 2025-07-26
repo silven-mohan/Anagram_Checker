@@ -1,13 +1,3 @@
-/** Anagram Checker **/
-
-#include<stdio.h>
-#include<string.h>
-
-void main()
-{
-	anagram_checker();
-}
-
 int anagram_checker()
 {
 	int length1, length2, i, j;
