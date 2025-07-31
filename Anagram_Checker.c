@@ -17,12 +17,12 @@ int anagram_checker()
 			if(word1[i]>word1[j])
 			{
 				temp=word1[i];
-				word1[i]=word1[j];
+				word1[i]=word1[j];	
 				word1[j]=temp;
 			}
 		}
 	}
-	for(i=0;i<=(length2-1);i++)
+	for(i=0;i<=(length2-1);i++)		//Arranging the letters of the two words in ascending order for an easier comparison of the alphabets.
 	{
 		for(j=i+1;j<=length2;j++)
 		{
@@ -36,7 +36,7 @@ int anagram_checker()
 	}
 	if((strcmp(word1, word2))==0)
 	{
-		printf("%s and %s are anagrams.", word11, word22);
+		printf("%s and %s are anagrams.", word11, word22);	//Comparing the two sorted words.
 	}
 	else
 	{
